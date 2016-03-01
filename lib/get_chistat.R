@@ -19,7 +19,7 @@ chistat <- function(snpdf){
 }
 
 #### loop through all SNPs
-get_chistat <- function(snps=snps, filter=50){
+get_chistat <- function(snps=snps, filter){
     ### snps: a data.frame format input file
     ### filter: minimum depth for a given site, default=50
     
